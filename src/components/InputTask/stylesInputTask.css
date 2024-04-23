@@ -1,9 +1,0 @@
-.inputTask {
-  background: #dbe2ef;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  display: grid;
-  grid-template-columns: 1fr auto auto;
-  align-items: center;
-  padding-right: 15px;
-}

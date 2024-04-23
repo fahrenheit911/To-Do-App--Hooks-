@@ -1,0 +1,31 @@
+.input-plus {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 45px;
+}
+.input-plus-value {
+  border: 1px solid #b1b1b1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 9px 10px;
+  font: 1rem/1em 'Roboto', sans-serif;
+  min-height: 32px;
+  border-left: right;
+}
+.input-plus-value::placeholder {
+  color: #7b7b7b;
+}
+.input-plus-button {
+  min-height: 32px;
+  border-radius: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  background: #3f72af url('./images/plus.svg') no-repeat center center;
+  width: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.input-plus-button :hover {
+  background-color: #0b4283;
+}

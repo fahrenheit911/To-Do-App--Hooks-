@@ -1,0 +1,22 @@
+.article {
+  background: white;
+  min-width: 600px;
+  border-radius: 20px;
+  padding: 25px 50px 40px;
+}
+
+.article-title {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.article-section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.article-section:last-child {
+  padding-bottom: 0;
+}

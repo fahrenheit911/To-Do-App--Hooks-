@@ -1,10 +1,18 @@
-import React from "react";
-import "./stylesInputPlus.css";
+import React, {useState} from 'react';
+import './index.css';
 
-export default function InputPlus() {
+export const InputPlus = () => {
+  const [firstName, setFirstName] = useState('');
+
   return (
-    <div>
-      <input className="inputPlus" />
+    <div className="input-plus">
+      <input
+        type="text"
+        className="input-plus-value"
+        placeholder="Type here..."
+        onChange={e => setFirstName(e.target.value)}
+      />
+      <button onClick={() => console.log(111)} aria-label="Add" className="input-plus-button" />
     </div>
   );
-}
+};
